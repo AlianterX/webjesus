@@ -1,9 +1,58 @@
-<html>
+<!doctype html>
+<html lang="es">
 <head>
-    <title>Sample Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presentación — Estudiante de Matemáticas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Sample Page</h1>
-    <p>This is a sample paragraph to demonstrate the HTML structure.</p>        
+    <main class="container">
+        <header class="hero">
+            <div class="avatar" aria-hidden="true"></div>
+            <div class="intro">
+                <h1>Hola — soy estudiante de Grado en Matemáticas</h1>
+                <p class="lead">Apasionado por el razonamiento riguroso, el análisis de datos y la resolución de problemas mediante herramientas matemáticas y computacionales.</p>
+                <p class="cta"><a class="btn" href="mailto:tu.email@example.com">Contáctame</a></p>
+            </div>
+        </header>
+
+        <section class="card">
+            <h2>Sobre mí</h2>
+            <p>Actualmente curso un Grado en Matemáticas. Me interesa el análisis real, la estadística y la teoría de la probabilidad. Disfruto aplicando la matemática a problemas reales y aprendiendo lenguajes como Python y R para experimentación y visualización.</p>
+        </section>
+
+        <section class="card two-col">
+            <div>
+                <h3>Educación</h3>
+                <ul>
+                    <li>Grado en Matemáticas — En curso</li>
+                    <li>Proyectos académicos en análisis numérico y estadística</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Habilidades</h3>
+                <ul class="skills">
+                    <li>Análisis y Álgebra</li>
+                    <li>Probabilidad y Estadística</li>
+                    <li>Python (NumPy, pandas, matplotlib)</li>
+                    <li>R y LaTeX</li>
+                    <li>Resolución de problemas y pensamiento crítico</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3>Proyectos</h3>
+            <ul>
+                <li>Análisis de datos con Python: limpiezas, visualizaciones y modelos básicos.</li>
+                <li>Pequeños estudios estadísticos aplicados a conjuntos de datos públicos.</li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <p>Puedes editar este archivo para añadir tu nombre real, Universidad y correo. Archivo: <code>index.html</code></p>
+        </footer>
+    </main>
 </body>
-</html>    
+</html>
